@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.auth.boot.controller;
 
 import javax.validation.Valid;
@@ -19,10 +14,6 @@ import org.springframework.web.servlet.ModelAndView;
 import com.auth.boot.domain.User;
 import com.auth.boot.service.CustomUserDetailsService;
 
-/**
- *
- * @author didin
- */
 @Controller
 public class LoginController {
 

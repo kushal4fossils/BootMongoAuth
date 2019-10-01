@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.auth.boot.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,10 +14,6 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.auth.boot.service.CustomUserDetailsService;
 
-/**
- *
- * @author didin
- */
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
